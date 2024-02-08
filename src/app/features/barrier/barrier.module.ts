@@ -14,4 +14,4 @@ import { BarrierComponent } from './barrier.component';
     BarrierRoutingModule
   ]
 })
-export class BarrierModule { }
+export default class BarrierModule { }

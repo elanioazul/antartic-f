@@ -44,4 +44,4 @@ import { ServicesTreeComponent } from './components/visor-sidebar/services-tree/
     VisorRoutingModule
   ]
 })
-export class VisorModule { }
+export default class VisorModule { }
