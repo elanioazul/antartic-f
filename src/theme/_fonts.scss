@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500;700&family=Roboto:wght@300;400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Mulish:wght@300;400;500;700");
+@import url("https://fonts.googleapis.com/css?family=Ruda:wght@300;400;500;700");
+@font-face {
+    font-family: FontGIS;
+    src: url(../../node_modules//font-gis//fonts/font-gis.woff ) format("woff");
+  }
+
+  $font-first: 'Roboto', sans-serif;
+  $font-second: 'Roboto Slab', serif;
+  $font-third: 'Mulish', sans-serif;
+  $font-forth: 'Ruda', sans-serif;
+  $font-fifth: 'FontGIS', serif;
+  
+  
+  $font-weight-light: 300;
+  $font-weight-regular: 400;
+  $font-weight-normal: 500;
+  $font-weight-bold: 700;
