@@ -1,0 +1,53 @@
+@import "../../../../../theme/theme";
+
+.notification-bar {
+    width: 100%;
+    height: 2em;
+    display: flex;
+    flex-direction: row;
+    background-color: $lightblue;
+
+    &__messages {
+        width: 55%;
+    }
+
+    &__mapinfo {
+        width: 45%;
+
+        display: flex;
+        flex-direction: row;
+
+
+        font-family: monospace;
+        text-align: center;
+        position: static;
+
+        border-left: 1px solid $darkblue;
+
+        &-viewbox {
+            width: 66%;
+
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            align-items: center;
+        }
+        &-numericscale {
+            padding-left: 15px;
+        }
+        &-linescale {
+            padding-left: 15px;
+        }
+
+        &-coordsbox {
+            width: 100%;
+
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+            align-items: center;
+
+            background-color: $lightblue;
+        }
+    }
+}
